@@ -2911,9 +2911,10 @@
                 <p class="prestigeunlock" id="confirmationdisclaimer" label="confirmationdisclaimer" style="color: plum" i18n="settings.noHotkeyAvailable"></p>
                 <p id="specialActionsTitle" label="specialActionsTitle" style="color: pink" i18n="settings.specialActions"></p>
                 <button id="dailyCode" label="dailyCode" class="promocodeButton" style="border:2px solid green" i18n="settings.daily"></button>
-                <div class="addCodeBox promocodeButton">
-                    <button id="addCode" label="addCode" style="border:2px solid green" i18n="settings.add"></button>
-                    <button id="addCodeOne" label="addCodeOne" style="border:2px solid green" i18n="settings.add1"></button>
+                <div id="addCodeBox" class="addCodeBox promocodeButton">
+                  <button id="addCode" label="addCode" i18n="settings.add"></button>
+                  <button id="addCodeAll" label="addCodeAll" i18n="settings.addAll"></button>
+                  <button id="addCodeOne" label="addCodeOne" i18n="settings.add1"></button>
                 </div>
                 <button id="timeCode" label="timeCode" class="promocodeButton" style="border:2px solid green" i18n="settings.time"></button>
                 <button id="promocodes" label="promocodes" class="promocodeButton" style="border:2px solid goldenrod" i18n="settings.enterPromoCodeHere"></button>
@@ -4355,49 +4356,73 @@ $STAGE$ for synergism stage"></p>
                 </div>
 
                 <div class="blueberryBoxColor" id="blueberryUpgradeContainer" alt="blueberryUpgradeContainer" label="blueberryUpgradeContainer">
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaTutorial" src="Pictures/Default/BlueberryTutorial.png">
+                    <div class="blueberryUpgradeTier">
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaTutorial" src="Pictures/Default/BlueberryTutorial.png">
+                        </div>
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaPatreon" src="Pictures/Default/BlueberryPatreon.png">
+                        </div>
                     </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaQuarks1" src="Pictures/Default/BlueberryQuarks.png">
+                    <div class="blueberryUpgradeTier">
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaQuarks1" src="Pictures/Default/BlueberryQuarks.png">
+                        </div>
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaCubes1" src="Pictures/Default/BlueberryCubes.png">
+                        </div>
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaLuck1" src="Pictures/Default/BlueberryLuck.png">
+                        </div>
                     </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaCubes1" src="Pictures/Default/BlueberryCubes.png">
+                    <div class="blueberryUpgradeTier">
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaCubeQuark1" src="Pictures/Default/BlueberryCubeQuark.png">
+                        </div>
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaLuckQuark1" src="Pictures/Default/BlueberryLuckQuark.png">
+                        </div>
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaLuckCube1" src="Pictures/Default/BlueberryLuckCube.png">
+                        </div>
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaQuarkCube1" src="Pictures/Default/BlueberryQuarkCube.png">
+                        </div>
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaCubeLuck1" src="Pictures/Default/BlueberryCubeLuck.png">
+                        </div>
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaQuarkLuck1" src="Pictures/Default/BlueberryQuarkLuck.png">
+                        </div>
                     </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaLuck1" src="Pictures/Default/BlueberryLuck.png">
+                    <div class="blueberryUpgradeTier">
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaQuarks2" src="Pictures/Default/BlueberryQuarks.png">
+                        </div>
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaCubes2" src="Pictures/Default/BlueberryCubes.png">
+                        </div>
+                        <div class="blueberryUpgrade">
+                            <img id="ambrosiaLuck2" src="Pictures/Default/BlueberryLuck.png">
+                        </div>
                     </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaCubeQuark1" src="Pictures/Default/BlueberryCubeQuark.png">
-                    </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaLuckQuark1" src="Pictures/Default/BlueberryLuckQuark.png">
-                    </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaLuckCube1" src="Pictures/Default/BlueberryLuckCube.png">
-                    </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaQuarkCube1" src="Pictures/Default/BlueberryQuarkCube.png">
-                    </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaCubeLuck1" src="Pictures/Default/BlueberryCubeLuck.png">
-                    </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaQuarkLuck1" src="Pictures/Default/BlueberryQuarkLuck.png">
-                    </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaQuarks2" src="Pictures/Default/BlueberryQuarks.png">
-                    </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaCubes2" src="Pictures/Default/BlueberryCubes.png">
-                    </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaLuck2" src="Pictures/Default/BlueberryLuck.png">
-                    </div>
-                    <div class="blueberryUpgrade">
-                        <img id="ambrosiaPatreon" src="Pictures/Default/BlueberryPatreon.png">
-                    </div>
+                    <div class="blueberryUpgradeTier">
                         <button id="refundBlueberries" style="border: 2px solid blue" i18n="ambrosia.refundWord"></button>
+                        <button id="getBlueberries" style="border: 2px solid blue" i18n="ambrosia.exportTree.exportButton"></button>
+                        <label id="importBlueberriesButton" label="importBlueberriesButton" for="importBlueberries" style="border: 2px solid blue" i18n="settings.loadFromFile"></label>
+                        <input type="file" id="importBlueberries" label="importBlueberries" accept=".txt" style="display: none">
+                    </div>
+                </div>
+                <div class="blueberryBoxColor" id="bbLoadoutContainer" alt="blueberryLoadoutContainer" label="blueberryLoadoutContainer">
+                    <button class="blueberryLoadoutSlot" id="blueberryLoadout1">1</button>
+                    <button class="blueberryLoadoutSlot" id="blueberryLoadout2">2</button>
+                    <button class="blueberryLoadoutSlot" id="blueberryLoadout3">3</button>
+                    <button class="blueberryLoadoutSlot" id="blueberryLoadout4">4</button>
+                    <button class="blueberryLoadoutSlot" id="blueberryLoadout5">5</button>
+                    <button class="blueberryLoadoutSlot" id="blueberryLoadout6">6</button>
+                    <button class="blueberryLoadoutSlot" id="blueberryLoadout7">7</button>
+                    <button class="blueberryLoadoutSlot" id="blueberryLoadout8">8</button>
+                    <button class="blueberryLoadoutSetting" id="blueberryToggleMode">-</button>
                 </div>
                 <div id="ambrosiaUpgradeValues" alt="ambrosiaUpgradeValues" label="ambrosiaUpgradeValues">
                     <p id="singularityAmbrosiaMultiline" alt="singularityAmbrosiaMultiline" label="singularityAmbrosiaMultiline"></p>

@@ -915,16 +915,23 @@ p#themesTitle {
 
 div.addCodeBox {
     display: flex;
-    padding: 0;
-    gap: 0 3px;
 }
 
 #addCode {
-    flex-grow: 4;
+    flex-grow: 3;
+    border: 2px solid green;
+}
+
+#addCodeAll {
+    flex-grow: 1;
+    border: 2px solid green;
+    border-left: none;
+    border-right: none;
 }
 
 #addCodeOne {
     flex-grow: 1;
+    border: 2px solid green;
 }
 
 p#promocodeinfo {
@@ -3496,12 +3503,37 @@ header #obtainiumDisplay { color: pink; }
     gap: 4px;
 }
 
+#blueberryUpgradeContainer {
+    flex-direction: column;
+}
+
+.blueberryUpgradeTier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2px;
+    width: 100%;
+    gap: 4px;
+}
+
 .singularityUpgrade,
 .octeractUpgrade,
 .singularityChallenge,
 .blueberryUpgrade {
     font-size: 0;
     cursor: pointer;
+}
+
+.blueberryLoadoutSlot {
+    height: 32px;
+    width: 32px;
+    border: 2px solid blue;
+}
+
+.blueberryLoadoutSetting {
+    height: 32px;
+    width: 192px;
+    border: 2px solid blue;
 }
 
 .singularityChallenges {
@@ -3622,6 +3654,7 @@ img#singularityPerksIcon {
 #singularityAmbrosiaMultiline {
     white-space: pre-line;
     margin: 15px 0 0;
+    justify-content: center;
 }
 
 #singularityChallengeDetails {
@@ -3700,4 +3733,15 @@ img#singularityPerksIcon {
     width: 200px;
     max-width: 500%;
     animation: rotation 2s infinite linear;
+}
+
+.hoveredBlueberryLoadout1 div.bbPurchasedLoadout1,
+.hoveredBlueberryLoadout2 div.bbPurchasedLoadout2,
+.hoveredBlueberryLoadout3 div.bbPurchasedLoadout3,
+.hoveredBlueberryLoadout4 div.bbPurchasedLoadout4,
+.hoveredBlueberryLoadout5 div.bbPurchasedLoadout5,
+.hoveredBlueberryLoadout6 div.bbPurchasedLoadout6,
+.hoveredBlueberryLoadout7 div.bbPurchasedLoadout7,
+.hoveredBlueberryLoadout8 div.bbPurchasedLoadout8 {
+    background-color: green;
 }
