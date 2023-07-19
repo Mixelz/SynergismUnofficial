@@ -2894,12 +2894,29 @@
       "enhance": "ЗАЧАРОВАТЬ",
       "respec": "ПЕРЕНАБОР",
       "respecAll": "ПЕРЕНАБРАТЬ ВСЁ",
+      "respecConfirm": "Подтвердить [-100,000 Подношений]",
+      "respecConfirmAll": "Подтвердить Все [-400,000 Подношений]",
+      "respecCancel": "Отменить Изменения Перенабора",
+      "respecSummary": "+-==-+ Для Перенабора, выберите 3 ЗЕЛЁНЫХ Руны +-==-+",
       "buy": "КУПИТЬ",
       "buyAll": "КУПИТЬ ВСЕ",
       "autoBuyOn": "Автопокупка: ВКЛ",
       "autoBuyOff": "Автопокупка: ВЫКЛ",
       "clickBuyEveryType": "Нажмите, чтобы купить все виды Осколков Талисманов, если они доступны",
       "costToBuy": "Цена покупки {{name}} ({{buyAmount}}): {{obtainium}} Обтаниума и {{offerings}} Подношений.",
+      "modifiers": {
+        "positive": "{{name}}: Активна",
+        "negative": "{{name}}: Неактивна"
+      },
+      "shards": {
+        "shard": "Осколок Талисмана",
+        "commonFragment": "Обычный Фрагмент",
+        "uncommonFragment": "Необычный Фрагмент",
+        "rareFragment": "Редкий Фрагмент",
+        "epicFragment": "Эпический Фрагмент",
+        "legendaryFragment": "Легендарный Фрагмент",
+        "mythicalFragment": "Мифический Фрагмент"
+      },
       "names": {
         "exemption": "Освобождение",
         "chronos": "Хронос",
