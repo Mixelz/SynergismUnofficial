@@ -897,7 +897,7 @@
           "name": "No Research Challenge || {{- value}} Completions",
           "flavor": "The dimension that never progressed past the dark ages. Many fear to even step foot.",
           "restrictions": "Ascend and reach the goal but you do not gain Obtainium nor are any researches purchasable. Ant production ^0.2.",
-          "goal": "Goal: {{value}} Coins, but get bonuses based on your best attempt.",
+          "goal": "Goal: Complete Challenge 10 [Sadistic Challenge I] {{value}} times.",
           "per": {
               "1": "+50% stronger effect on researches 1x1 through 1x5. Current: ",
               "2": "+1 research purchased per roomba tick! Current: ",
@@ -915,7 +915,7 @@
           "name": "SADISTIC CHALLENGE II || {{- value}} Completions",
           "flavor": "The worst atrocity a man can commit is witnessing, without anguish, the suffering of others.",
           "restrictions": "Ascend and reach the goal but you're stuck in all corruptions at level 11, and Ant production ^0.01.",
-          "goal": "Goal: Complete Challenge 10 [Sadistic Challenge I] {{value}} times.",
+          "goal": "Goal: {{value}} Coins, but get bonuses based on your best attempt.",
           "per": {
               "1": "Folly of mankind: ",
               "2": "to believe they can defeat ",
@@ -1513,6 +1513,7 @@
           "multiBuyPurchased": "Purchased {{levels}} levels, thanks to Multi Buy!"
       },
       "perks": {
+          "levelInfo": "Level {{level}} - (Singularity {{singularity}})",
           "improvedIn": "An existing Perk will be improved in Singularity {{sing}}",
           "unlockedIn": "You will unlock a whole new Perk in Singularity {{sing}}",
           "header": "The highest Singularity you've reached is the <span style=\"color: gold\">{{ord}} Singularity.</span><br/>Here is the list of perks you have acquired to compensate the penalties",
@@ -2064,8 +2065,7 @@
       }
   },
   "general": {
-      "youAreInThe": "You are in the",
-      "singularity": "Singularity",
+      "youAreInThe": "You are in the <<gold|{{number}} Singularity>>",
       "validation": {
           "finite": "Value must be a finite number!",
           "zeroOrLess": "Only numbers greater than zero, please!",
@@ -2389,7 +2389,8 @@
           "corruption": "Corruption",
           "singularity": "Singularity",
           "settings": "Settings",
-          "shop": "Shop"
+          "shop": "Shop",
+          "unsmith": "UNSMITH"
       },
       "buildings": {
           "coin": "Coin Buildings",
@@ -3437,5 +3438,8 @@
           "clicked": "See? Yet another reason to trust Unsmith. Ah well. For clicking me, you gain 5% more Offerings, Obtainium, and ALL Cubes until you refresh the page!",
           "clickedText": "You have clicked the <<white|Unsmith>>! Until refresh, gain <<orange|+5% Offerings>>, <<pink|+5% Obtainium>>, <<white|+5% ALL Cubes>>!"
       }
+  },
+  "account": {
+    "logout": "The page will now reload. You are logged out! Goodbye!!"
   }
 }
